@@ -7,9 +7,9 @@ to be polite, really ugly. Here's how to change it.
 
 **DISCLAIMER: the font is changed systemwide, so it will
 be changed in every intsance it is used (should not be a problem, 
-its ugly in other apps, too)
+its ugly in other apps, too)**
 
-**DISCLAIMER: installation and usage of fonttools is untested! (Tested on Ubuntu)
+**DISCLAIMER: installation and usage of fonttools is untested! (Tested on Ubuntu)**
 
 ## Preview on content
 1. install required tools
