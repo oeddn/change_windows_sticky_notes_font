@@ -1,5 +1,3 @@
- # change_windows_sticky_notes_font
-
 # Schriftart der Windows Kurznotizen ändern
 
 Die Standardschriftart der Windows Kurznotizen ist mit einfachen Bordmitteln nicht einstellbar und zumindest, sagen wir, Geschmackssache. Hier beschreiben ich kurz wie man diese ändern kann.
@@ -67,13 +65,13 @@ Auf der Kommandozeile die Originalschriftart in ein lesbares Format umwandeln:
 Die erzeugten \*.ttx Dateien sind im XML-Format, und somit les- und durchsuchbar. Um Windows die ausgewählte Schrift als Standard für die Kurznotizen unterzuschieben, muss der von <name> und </name> eingeschlossene Bereich in der Wunschschriftart durch den der jeweiligen Originalschriftart (je einmal für regular und bold) ersetzt werden. Danach wird die geänderte \*.ttx Datei der Wunschschriftart gespeichert.
 neue Schriftart zurück nach TrueType wandeln
 
-1. Damit unsere neue Schriftart mit alter Kennung wieder in das System installiert werden kann muss diese wieder in einen TrueTypeFont umgewandelt werden:
+Damit unsere neue Schriftart mit alter Kennung wieder in das System installiert werden kann muss diese wieder in einen TrueTypeFont umgewandelt werden:
 ~~~
   ttx -o segoepr.ttf consolas.ttx
   ttx -o segoeprb.ttf consolasb.ttx
 ~~~
-2. erstellte Schriftart installieren
+## erstellte Schriftart installieren
 
-3. um zu einem späteren Zeitpunkt die Originalschriftart wiederherstellen zu können, empfiehlt es sich die beiden gesicherten Dateien `__segoepr.ttf` und `__segoeprb.ttf` zu sichern bzw. im Arbeitsverzeichnis zu lassen
-4. die umbenannten Dateien in das Schriftartenfenster ziehen (Adminrechte erforderlich!)
-5. nachdem Neustart der Anwendung wird der neue Font verwendet
+1. um zu einem späteren Zeitpunkt die Originalschriftart wiederherstellen zu können, empfiehlt es sich die beiden gesicherten Dateien `__segoepr.ttf` und `__segoeprb.ttf` zu sichern bzw. im Arbeitsverzeichnis zu lassen
+2. die umbenannten Dateien in das Schriftartenfenster ziehen (Adminrechte erforderlich!)
+3. nachdem Neustart der Anwendung wird der neue Font verwendet
