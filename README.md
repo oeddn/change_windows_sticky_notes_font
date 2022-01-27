@@ -1,14 +1,12 @@
 # Schriftart der Windows Kurznotizen ändern
 
-Die Standardschriftart der Windows Kurznotizen ist mit einfachen Bordmitteln nicht einstellbar und optisch zumindest, sagen wir, Geschmackssache. Hier beschreibe ich kurz wie man diese ändern kann.
+Die Standardschriftart der Windows Kurznotizen ist mit einfachen Bordmitteln nicht einstellbar und optisch zumindest, sagen wir, Geschmackssache. Hier beschreibe ich wie man diese ändern kann. Der Modus ist dabei eigentlich ganz einfach: Da Windows nur eine bestimmte Schriftart für die Kurznotizen vorsieht, verändern wir unsere Wunschschriftart so dass sie von Windows als eben diese Standardschriftart akzeptiert wird. Dazu passen wir die Namensparameter innerhalb des TrueTypeFonts an. Eine einfache Umbenennung der Fontdateien reicht dazu nämlich leider nicht aus.
 
 **DISCLAIMER: ausschließlich getestet unter Windows 8.1!**
 
 **DISCLAIMER: die Schriftart wird systemweit geändert, falls also genau diese Schriftart an anderer Stelle weiterbenutzt werden soll ist dieses Verfahren ungeeignet.**
 
 **DISCLAIMER: die fonttools wurden nicht direkt unter Windows genutzt, sondern auf Ubuntu Linux. Die Installation von Python und den fonttools unter Windows ist also ungetestet!**
-
-Der Modus ist dabei eigentlich ganz einfach: Da Windows nur eine bestimmte Schriftart für die Kurznotizen vorsieht, verändern wir unsere Wunschschriftart so dass sie von Windows als eben diese Standardschriftart akzeptiert wird. Dazu passen wir die Namensparameter innerhalb des TrueTypeFonts an. Eine einfache Umbenennung der Fontdateien reicht dazu nämlich leider nicht aus.
 
 Insgesamt müssen wir die folgenden Schritte ausführen:
 
